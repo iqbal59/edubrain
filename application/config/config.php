@@ -379,7 +379,7 @@ $config['encryption_key'] = '$jkeL78fak-Nkw8alka!lk4lakaDnlakl39n';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'mozz_lms_hellkels_2020';
+$config['sess_cookie_name'] = 'edubrain_2020';
 $config['sess_expiration'] = 3600*24*15;
 $config['sess_save_path'] = APPPATH.'session/';
 $config['sess_match_ip'] = FALSE;

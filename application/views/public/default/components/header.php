@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" href="<?php print $this->RES_ROOT;?>images/fav.png">
 
     <!-- Stylesheets -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet'>
 
     <!--====== Bootstrap css ======-->
     <link href="<?php print $this->RES_ROOT;?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
