@@ -1,0 +1,15 @@
+.db-link{
+	text-align: center;
+}
+.db-icon{
+    font-size: 4em;
+}
+h5.db-h5{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+h2.db-h2{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #000;
+}

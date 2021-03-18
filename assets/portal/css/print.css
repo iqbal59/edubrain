@@ -1,0 +1,245 @@
+
+/* ====================================== Fonts================================= */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap');
+/* =================================Reset Css================================================ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+	margin-bottom: 0 !important;
+}
+a:hover {
+	color: inherit !important;
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	margin:0;
+	padding: 0;
+}
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: none !important;
+}
+button {
+	outline: none;
+}
+
+button:focus {
+	outline: none !important;
+}
+
+input {
+	outline: none;
+}
+textarea {
+	outline: none;
+}
+
+p {
+	font-size: 14px;
+	line-height: 26px;
+	color: #686f7a;
+}
+
+/* ================ Typography Css =============== */
+h1 {
+	font-size: 2em;
+	/* 2x body copy size = 32px */
+	line-height: 1.25;
+	/* 45px / 36px */
+}
+h2 {
+	font-size: 1.625em;
+	/* 1.625x body copy size = 26px */
+	line-height: 1.15384615;
+	/* 30px / 26px */
+}
+h3 {
+	font-size: 1.375em;
+	/* 1.375x body copy size = 22px */
+	line-height: 1.13636364;
+	/* 25px / 22px */
+}
+h4 {
+	font-size: 1.125em;
+	/* 1.125x body copy size = 18px */
+	line-height: 1.11111111;
+}
+h5 {
+	font-size: 1.10em;
+	/* 1.125x body copy size = 18px */
+	line-height: 1.10;
+}
+h6 {
+	font-size: 1em;
+	/* 1.125x body copy size = 18px */
+	line-height: 1.050;
+}
+blockquote {
+	font-size: 1.25em;
+	/* 20px / 16px */
+	line-height: 1.25;
+	/* 25px / 20px */
+}
+
+html {
+   font-size: 14px;
+}
+
+body {
+	margin: 2;
+	font-family: "Roboto","Jameel Noori Nastaleeq","Noto Nastaliq Urdu","Nafees Nastaleeq","Pak Nastaleeq", sans-serif;
+	font-size: 0.985rem;
+	line-height: 1.42857143;
+	color: #333;
+	background: #f7f7f7 !important;
+}
+
+.float-right{
+    float: right;
+    text-align: right;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
+    /*margin-bottom: 2px;*/
+    /*margin-top: 3px;*/
+}
+
+.col-1 {
+    grid-column: span 1;
+}
+.col-2 {
+    grid-column: span 2;
+}
+.col-3 {
+    grid-column: span 3;
+}
+.col-4 {
+    grid-column: span 4;
+}
+.col-5 {
+    grid-column: span 5;
+}
+.col-6 {
+    grid-column: span 6;
+}
+.col-7 {
+    grid-column: span 7;
+}
+.col-8 {
+    grid-column: span 8;
+}
+.col-9 {
+    grid-column: span 9;
+}
+.col-10 {
+    grid-column: span 10;
+}
+.col-11 {
+    grid-column: span 11;
+}
+.col-12 {
+    grid-column: span 12;
+}
+
+.border-1{
+    border: 1px solid black;
+}
+
+.box-10{display:inline-block; width: 10pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-20{display:inline-block; width: 20pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-30{display:inline-block; width: 30pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-40{display:inline-block; width: 40pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-50{display:inline-block; width: 50pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-60{display:inline-block; width: 60pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-70{display:inline-block; width: 70pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-80{display:inline-block; width: 80pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-90{display:inline-block; width: 90pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-100{display:inline-block; width: 100pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-110{display:inline-block; width: 110pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-120{display:inline-block; width: 120pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-130{display:inline-block; width: 130pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-140{display:inline-block; width: 140pt; height:15pt;align-content: center;vertical-align: middle;}
+.box-150{display:inline-block; width: 150pt; height:15pt;align-content: center;vertical-align: middle;}
+
+
+
+@media print {
+	* {
+	    font-family: 'Roboto',"Jameel Noori Nastaleeq","Noto Nastaliq Urdu","Nafees Nastaleeq","Pak Nastaleeq", Verdana, sans-serif;
+	}
+
+	body, page {
+		margin: 0;
+		box-shadow: 0;
+		padding: 2mm;
+		background: none;
+		background-color: none;
+	}
+
+	@page {
+		margin: 2mm;
+		margin-bottom: 3mm;
+		background: none;
+		background-color: none;
+		/*margin: 0.2cm;*/
+		size: A4;
+	    -webkit-print-color-adjust: exact;
+	}
+
+	.force-page-break-after{
+		page-break-after: always;
+		break-after: page;
+	}
+	.force-page-break-before{
+		page-break-before: always;
+		break-before: page;
+	}
+	.avoid-page-break{
+		page-break-inside: avoid;
+		break-inside: avoid;
+	}
+
+
+}
